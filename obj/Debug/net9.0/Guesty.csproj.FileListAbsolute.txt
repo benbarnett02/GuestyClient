@@ -1,0 +1,12 @@
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\bin\Debug\net9.0\Guesty.deps.json
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\bin\Debug\net9.0\Guesty.dll
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\bin\Debug\net9.0\Guesty.pdb
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.csproj.AssemblyReference.cache
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.AssemblyInfoInputs.cache
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.AssemblyInfo.cs
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.csproj.CoreCompileInputs.cache
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.dll
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\refint\Guesty.dll
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.pdb
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\ref\Guesty.dll
