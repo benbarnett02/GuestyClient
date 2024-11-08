@@ -1,9 +1,10 @@
 ﻿using System.Text.Json.Serialization;
 
 namespace Guesty.Models;
-public class Listing
+
+public class Guest
 {
-    [JsonPropertyName("_id")]
+    [JsonPropertyName("_id")] 
     public string? Id { get; set; }
-    public string? Nickname { get; set; }
+    public GuestAddress Address { get; set; }
 }

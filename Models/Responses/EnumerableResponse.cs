@@ -2,7 +2,8 @@
 
 namespace Guesty.Models.Responses;
 
-public abstract class EnumerableResponse<T>
+// ReSharper disable once ClassNeverInstantiated.Global
+public class EnumerableResponse<T>
 {
     [JsonPropertyName("results")]
     public required IEnumerable<T> Data { get; set; }

@@ -10,3 +10,4 @@ C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.dll
 C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\refint\Guesty.dll
 C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.pdb
 C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\ref\Guesty.dll
+C:\Users\BenBarnett\source\repos\Fuse\Guesty\obj\Debug\net9.0\Guesty.sourcelink.json
