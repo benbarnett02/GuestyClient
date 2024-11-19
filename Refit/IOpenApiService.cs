@@ -1,4 +1,5 @@
-﻿using Guesty.Models;
+﻿using System.Runtime.Versioning;
+using Guesty.Models;
 using Guesty.Models.Requests;
 using Guesty.Models.Responses;
 using Refit;
@@ -40,5 +41,11 @@ namespace Guesty.Refit
 
         [Get("/owners/{id}")]
         Task<Owner> GetOwner(string id);
+        
+        // This endpoint is NOT Documented. I don't recommend using it. 
+        // Guesty may remove it at any time.
+        [Get("/accounts/me/stats")]
+        Task<AccountStatistics> GetAccountStatistics([Query] string? listingId);
+        
     }
 }

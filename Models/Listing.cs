@@ -7,5 +7,6 @@ public class Listing
     public string? Id { get; set; }
     public string? Nickname { get; set; }
     public string? Title { get; set; }
+    public PublicDescription? PublicDescription { get; set; }
     
 }
