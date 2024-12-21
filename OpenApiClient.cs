@@ -14,7 +14,6 @@ public class OpenApiClient
     {
         _api = RestService.For<IOpenApiService>(httpClient, new RefitSettings
         {
-            UrlParameterFormatter = new UrlParameterFormatter()
         });
     }
 
@@ -81,4 +80,13 @@ public class OpenApiClient
     {
         return await _api.GetAccountStatistics(listingId);
     }
+
+    public async Task<IEnumerable<Day>> GetCalendar(string listingId, DateOnly startDate, DateOnly endDate)
+    {
+        var calendar = await _api.GetCalendar(listingId, startDate.ToString("yyyy-MM-dd"), endDate.ToString("yyyy-MM-dd"));
+        return calendar.Data.Days;
+    }
+
+
+
 }

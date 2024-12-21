@@ -3,7 +3,7 @@ using Refit;
 
 namespace Guesty.Models.Requests;
 
-public class ListingsQuery : IUrlParameterFormatter
+public class ListingsQuery
 {
     [AliasAs("tags")] public List<string>? Tags { get; set; }
 
@@ -12,22 +12,24 @@ public class ListingsQuery : IUrlParameterFormatter
     public string? ViewId { get; set; }
     public string? QueryString { get; set; }
     public string? City { get; set; }
-    public bool? Active { get; set; }
+    
+    [AliasAs("active")]
+    public string? Active { get; set; }
 
     public bool? PmsActive { get; set; }
     public string? IntegrationId { get; set; }
+
+    [AliasAs("listed")]
     public bool? Listed { get; set; }
     public AvailabilityRange? AvailabilityRange { get; set; }
     public bool IgnoreFlexibleBlocks { get; set; } = false;
     public List<string> Fields { get; set; } = new List<string>();
     public string? Sort { get; set; }
+
+    [AliasAs("limit")]
     public int Limit { get; set; } = 25;
-    public int Offset { get; set; } = 0;
-    
 
-
-    public string? Format(object? value, ICustomAttributeProvider attributeProvider, Type type)
-    {
-        throw new NotImplementedException();
-    }
-}
+    [AliasAs("skip")]
+    public int Skip { get; set; } = 0;
+   
+   }
