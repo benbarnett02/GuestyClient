@@ -4,7 +4,7 @@ namespace Guesty.Models;
 
 public class Guest
 {
-    [JsonPropertyName("_id")] 
+    [JsonPropertyName("_id")]  
     public string? Id { get; set; }
     public GuestAddress Address { get; set; }
 }

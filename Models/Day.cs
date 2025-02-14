@@ -15,7 +15,7 @@ namespace Guesty.Models
         public int MinNights { get; set; }
         public bool IsBasePrice { get; set; }
         public Blocks Blocks { get; set; }
-        public string Status { get; set; }
+        public string Status { get; set; } 
         public string? ReservationId { get; set; }
         public bool Cta { get; set; }
         public bool Ctd { get; set; }
